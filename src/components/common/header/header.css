@@ -1,0 +1,48 @@
+.logo img{
+    width: 150px;
+    height: 55px;
+}
+.logo{
+    object-fit: contain;
+}
+
+.header{
+    padding: 1.4rem;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    background-color: white;
+    z-index: 9;
+}
+
+.header_right ul {
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+
+.header_right ul li{
+     padding-inline: 1.5rem;
+}
+
+.header_right ul li a {
+    padding: 10px 35px;
+    color: black;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FA3910;
+    font-size: 17px;
+}
+
+.header_right ul li a:hover{
+    background-color: #FA3910;
+    color: white;
+}
+
+.header_right ul li i{
+    cursor: pointer;
+}
+
+.en_dropdown{
+    cursor: pointer;
+}
