@@ -1,0 +1,46 @@
+.main-heading {
+  font-family: "Cairo", "Helvetica Neue", "Helvetica", sans-serif;
+  margin-bottom: 56px;
+}
+.label-class {
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.input-class {
+  font-family: "Cairo", "Helvetica Neue", "Helvetica", sans-serif;
+
+  font-size: 14px;
+  padding: 8px 4px;
+  margin-bottom: 25px;
+}
+.route-class {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 22px;
+}
+.link-class {
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  text-decoration: underline;
+  color: #fa3910;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+}
+.btn-class {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 600;
+  background-color: #fa3910;
+  color: white;
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+.btn-class:hover {
+  opacity: 0.5;
+}
