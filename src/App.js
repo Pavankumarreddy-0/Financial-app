@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Login from './components/login/login'
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header>
          <h1>Financial App Project Home page</h1>
       </header>
+      <Login />
     </div>
   );
 }
