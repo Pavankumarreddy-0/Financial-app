@@ -4,7 +4,7 @@ import "./login.css";
 function login() {
   return (
     <>
-      <div class="gap-2 col-6 mx-auto main-heading">
+      <div style={{height:"470px"}} class="gap-2 col-6 mx-auto main-heading">
         <h1>Log in</h1>
       </div>
       <div class="row">
