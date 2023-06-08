@@ -1,6 +1,7 @@
 .main-heading {
   font-family: "Cairo", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 56px;
+  margin-top: 20px;
 }
 .label-class {
   font-family: "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
@@ -43,4 +44,5 @@
 }
 .btn-class:hover {
   opacity: 0.5;
+  border: 1px solid #fa3910;
 }

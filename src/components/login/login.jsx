@@ -1,10 +1,11 @@
 import React from "react";
 import "./login.css";
+import { Link } from "react-router-dom";
 
 function login() {
   return (
     <>
-      <div style={{height:"470px"}} class="gap-2 col-6 mx-auto main-heading">
+      <div class="gap-2 col-6 mx-auto main-heading">
         <h1>Log in</h1>
       </div>
       <div class="row">
@@ -42,9 +43,9 @@ function login() {
       <div class="gap-2 col-6 mx-auto route-class">
         <span>Forgotten your password?</span>
         <span>
-          <a href="/" class="link-class">
+          <Link to="/forgot-password" class="link-class">
             Click here
-          </a>
+          </Link>
         </span>
       </div>
       <div class="gap-2 col-6 mx-auto route-class">
@@ -57,7 +58,10 @@ function login() {
       </div>
       <div class="row">
         <div class="d-grid gap-2 col-6 mx-auto">
-          <div style={{ marginTop: "60px" }} class="col-sm-12">
+          <div
+            style={{ marginTop: "60px", marginBottom: "60px" }}
+            class="col-sm-12"
+          >
             <button class="col-sm-10 btn btn-lg btn-class" type="submit">
               Login
             </button>
