@@ -5,6 +5,7 @@ import Footer from './components/common/footer/Footer';
 import Index from './pages/home/Index';
 import ErrorPage from './components/common/error page/ErrorPage';
 import Login from './components/login/login';
+import ForgotPassword from './components/Forgot-password/ForgotPassword'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route exact path='/' element={<Index />} />
           <Route exact path='/home' element={<Index />} />
           <Route exact path="/login" element={<Login/>} />
+          <Route exact path="/forgot-password" element={<ForgotPassword/>} />
+
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </div>
